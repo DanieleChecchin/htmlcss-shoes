@@ -1,0 +1,65 @@
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Generics */
+
+body{
+font-family: 'Rubik Mono One', sans-serif;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: 450px;
+}
+
+/* Utils */
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.color-y {
+    color: yellow;
+}
+
+
+
+/* Main */
+
+.full-page{
+    height: 100vh;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    bottom: 70px;
+    left: 320px;
+    text-align: center;
+}
+
+#superga{
+    background-color: red;
+}
+
+#tommy{
+    background-color: green;
+}
+
+#converse{
+    background-color: yellow;
+    color: green;
+}
